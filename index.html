@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIERESZKO — Arte</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Great+Vibes&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Great+Vibes&family=Cinzel:wght@400;600;700&family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
@@ -462,7 +462,7 @@
                 <div class="space-y-8">
 
                     <h1 class="leading-tight">
-                        <span class="font-greatvibes text-7xl sm:text-8xl lg:text-9xl xl:text-[10rem] text-white block" style="line-height:1.1">Ciereszko</span>
+                        <span style="font-family: 'Cinzel Decorative', serif; letter-spacing: 0.05em;" class="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-white block" style="line-height:1.2">Ciereszko</span>
                     </h1>
 
                     <p class="font-elegant text-xl sm:text-2xl text-charcoal-200 max-w-lg leading-relaxed">
@@ -800,10 +800,9 @@
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="fade-up">
                     <div class="grid grid-cols-2 gap-4">
-                        <img src="https://images.unsplash.com/photo-1513379733131-47fc74b45fc7?w=400&q=80" alt="Arte" class="w-full h-64 object-cover">
-                        <img src="https://images.unsplash.com/photo-1594732842755-49614d04eba4?w=400&q=80" alt="Pintura" class="w-full h-64 object-cover mt-8">
-                        <img src="https://images.unsplash.com/photo-1572947650440-e8a97ef053b0?w=400&q=80" alt="Proceso" class="w-full h-64 object-cover">
-                        <img src="https://images.unsplash.com/photo-1574182245530-967d9b3831af?w=400&q=80" alt="Obra" class="w-full h-64 object-cover mt-8">
+                        <img src="foto1.png" alt="Susana Ciereszko en su taller" class="w-full h-72 object-cover object-top">
+                        <img src="foto2.png" alt="Susana Ciereszko pintando" class="w-full h-72 object-cover object-top mt-8">
+                        <img src="foto3.png" alt="Susana Ciereszko artista" class="w-full h-72 object-cover object-center col-span-2">
                     </div>
                 </div>
                 <div class="fade-up space-y-6">
@@ -833,17 +832,8 @@
 
     <!-- About Section -->
     <section id="nosotros" class="py-24 lg:py-32 bg-charcoal-800/30">
-        <div class="max-w-7xl mx-auto px-6 lg:px-8">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <div class="fade-up">
-                    <div class="grid grid-cols-2 gap-4">
-                        <img src="https://images.unsplash.com/photo-1513379733131-47fc74b45fc7?w=400&q=80" alt="Arte" class="w-full h-64 object-cover">
-                        <img src="https://images.unsplash.com/photo-1594732842755-49614d04eba4?w=400&q=80" alt="Pintura" class="w-full h-64 object-cover mt-8">
-                        <img src="https://images.unsplash.com/photo-1572947650440-e8a97ef053b0?w=400&q=80" alt="Proceso" class="w-full h-64 object-cover">
-                        <img src="https://images.unsplash.com/photo-1574182245530-967d9b3831af?w=400&q=80" alt="Obra" class="w-full h-64 object-cover mt-8">
-                    </div>
-                </div>
-                <div class="fade-up">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="fade-up">
                     <div class="inline-flex items-center space-x-3 mb-6">
                         <div class="gold-line w-12"></div>
                         <span class="text-gold-400 text-xs tracking-[0.4em] uppercase">Envíos</span>
@@ -857,7 +847,7 @@
                     <p class="font-elegant text-lg text-charcoal-300 mb-8 leading-relaxed">
                         Cada obra viaja con el mayor cuidado y protección para que llegue en perfecto estado. Contactanos para más información sobre costos y tiempos de envío.
                     </p>
-                    <div class="space-y-4 mb-8">
+                    <div class="grid sm:grid-cols-2 gap-4 mb-8">
                         <div class="flex items-center space-x-3">
                             <div class="w-8 h-8 bg-gold-500/10 flex items-center justify-center">
                                 <svg class="w-4 h-4 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
@@ -886,7 +876,6 @@
                     <a href="#contacto" class="inline-block btn-gold px-10 py-4 text-sm tracking-[0.2em] uppercase font-medium">
                         Contáctanos
                     </a>
-                </div>
             </div>
         </div>
     </section>
